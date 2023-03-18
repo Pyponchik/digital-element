@@ -1,0 +1,21 @@
+.hero__text {
+  width: 425px;
+  height: 82px;
+  font-family: 'Gilroy';
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+  align-self: flex-start;
+  margin-left: 16%;
+  margin-top: 32px;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px){
+  .hero__text {
+    margin-left: 5%;
+    max-width: 90%;
+  }
+}

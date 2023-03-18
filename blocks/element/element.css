@@ -1,0 +1,42 @@
+.element {
+  width: 380px;
+  height: 537px;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 80px;
+}
+
+.element:nth-child(even){
+  margin-top: -262px;
+}
+
+.element:nth-child(odd) {
+  align-self: flex-end;
+  margin-top: -163px;
+}
+
+@media screen and (max-width: 1250px){
+  .element {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 1124px){
+  .element:nth-child(even){
+    margin-top: 12px;
+  }
+  .element:nth-child(odd) {
+    margin-top: 12px;
+    align-self: center;
+  }
+  .element{
+    margin: 0;
+    margin-top: 12px;
+  }
+  .element:first-child{
+    margin-top: 120px;
+  }
+}

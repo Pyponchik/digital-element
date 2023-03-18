@@ -1,0 +1,8 @@
+.hero__menu {
+  width: 24px;
+  height: 16px;
+  background: url(../../../image/hero_menu.svg) no-repeat center;
+  border: 0;
+  margin-top: 16px;
+  margin-right: 4px;
+}

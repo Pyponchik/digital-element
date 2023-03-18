@@ -1,0 +1,32 @@
+.hero__button {
+  width: 220px;
+  height: 56px;
+  border-radius: 10px;
+  border: 0;
+  background: #5A98D0;
+  margin-left: 16%;
+  align-self: flex-start;
+  margin-top: 71px;
+  font-family: 'Gilroy';
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px){
+  .hero__button{
+    margin-left: 40%;
+    margin-top: 210px;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .hero__button{
+    align-self: center;
+    margin-top: 320px;
+    margin-left: 0;
+  }
+}
+

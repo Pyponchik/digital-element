@@ -1,0 +1,13 @@
+.element__paragraph {
+  width: 284px;
+  margin-top: 16px;
+  margin-left: 48px;
+  font-family: 'Gilroy';
+  font-style:  normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+}

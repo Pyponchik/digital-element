@@ -1,0 +1,15 @@
+.hero__illustration {
+  width: 687px;
+  height: 612px;
+  position: absolute;
+  bottom: 55px;
+  right: 23px;
+  z-index: -1;
+}
+
+@media screen and (max-width: 767px){
+  .hero__illustration{
+    width: 95%;
+    height: 75%;
+  }
+}

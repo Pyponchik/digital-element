@@ -1,0 +1,14 @@
+.whatwedo__title {
+  margin: 0;
+  width: 358px;
+  font-family: 'Gilroy';
+  font-style:  normal;
+  font-weight: 200;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #316099;
+  position: absolute;
+  top: 12px;
+  left: 0;
+}

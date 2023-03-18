@@ -1,0 +1,9 @@
+.animation {
+  transition: .3s;
+  cursor: pointer;
+}
+
+.animation:hover {
+  opacity: .6;
+  transform: scale(120%);
+}

@@ -1,0 +1,11 @@
+.element__button {
+  font-style:  normal;
+  font-weight: 200;
+  font-family: 'Gilroy';
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #5A98D0;
+  text-decoration: none;
+  margin-left: 48px;
+}

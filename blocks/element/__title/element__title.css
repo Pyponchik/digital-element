@@ -1,0 +1,12 @@
+.element__title {
+  width: 259px;
+  margin: 0;
+  font-family: 'Gilroy';
+  font-style:  normal;
+
+  font-size: 20px;
+  line-height: 30px;
+  color: #1F3F68;
+  margin-top: 50px;
+  margin-left: 48px; 
+}
