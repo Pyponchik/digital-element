@@ -5,3 +5,11 @@
 
   src: url(/vendor/fonts/GallientRegular.ttf) format("ttf");
 }
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style:  normal;
+  font-weight: 200;
+
+  src: url(/vendor/fonts/Gilroy-Light.otf) format("otf");
+}

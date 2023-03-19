@@ -1,5 +1,6 @@
 .hero__name {
   width: 510px;
+  margin-top: 0;
   font-family: 'Galien';
   font-style:  normal;
   font-weight: 200;

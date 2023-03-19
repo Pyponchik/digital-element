@@ -1,0 +1,20 @@
+.footer__one-text {
+  width: 46%;
+  min-width: 270px;
+  margin: 0;
+  margin-top: -20px;
+  font-family: 'Gilroy';
+  font-style:  normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;  
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 787px){
+  .footer__one-text {
+    margin-top: 30px;
+  }
+}

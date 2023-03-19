@@ -1,0 +1,19 @@
+.popup__name {
+  margin-top: 56px;
+  margin-left: 56px;
+  font-family: 'Gilroy';
+  font-style:  normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 640px) {
+  .popup__name {
+    align-self: center;
+    margin-left: 0;
+  }
+}

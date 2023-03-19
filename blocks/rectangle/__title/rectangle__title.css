@@ -1,0 +1,17 @@
+.rectangle__title {
+  width: 232px;
+  font-family: 'Gilroy';
+  font-style:  normal;
+  font-weight: 200;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  grid-area: rectangle__title;
+}
+
+@media screen and (max-width: 620px){
+  .rectangle__title{
+    margin-left: 30px;
+  }
+}

@@ -9,11 +9,11 @@
   <link rel="stylesheet" href="pages/index.css">
 </head>
 <body class="page">
+  <header class="header">
+    <img class="header__logo" src="image/hero_logo.svg" alt="logo">
+    <button class="header__menu animation"></button>
+  </header>
   <section class="hero">
-    <div class="hero__navigation">
-      <img class="hero__logo" src="image/hero_logo.svg" alt="logo">
-      <button class="hero__menu animation"></button>
-    </div>
     <h1 class="hero__name">New Automation Tool for Your&nbspHome</h1>
     <h2 class="hero__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
       Faucibus tristique vulputate ultrices ut mauris tellus at. 
@@ -25,7 +25,80 @@
     <h2 class="whatwedo__title">What we do to helpour client grow in digital era,</h2>
   </section>
   <section class="rectangle">
-
+    <div class="rectangle__box">
+      <h2 class="rectangle__title">Our Beloved Client</h2>
+      <h3 class="rectangle__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+        veniam.</h3>
+      <ul class="rectangle__cards">
+        <a class="rectangle__card" href="#">LOGO CLIENT 1</a>
+        <a class="rectangle__card" href="#">LOGO CLIENT 2</a>
+        <a class="rectangle__card" href="#">LOGO CLIENT 3</a>
+        <a class="rectangle__card" href="#">LOGO CLIENT 4</a>
+        <a class="rectangle__card" href="#">LOGO CLIENT 5</a>
+        <a class="rectangle__card" href="#">LOGO CLIENT 6</a>
+        <a class="rectangle__card" href="#">LOGO CLIENT 7</a>
+        <a class="rectangle__card" href="#">More Client</a>
+      </ul>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer__one">
+      <h2 class="footer__one-title">Intersted to woek with our team?</h2>
+      <button class="footer__one-btn animation">Let’s Talk</button>
+      <h3 class="footer__one-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+        veniam.</h3>
+    </div>
+    <div class="footer__border"></div>
+    <div class="footer__two">
+      <nav class="footer__two-box">
+        <img class="footer_two-box_logo" src="image/footer_logo.svg">
+        <h2 class="footer__two-box_name">Afrianska</h2>
+        <h3 class="footer__two-box_pnct">A.&emsp;Lorem ipsum dolor sit amet, <br>&emsp;&nbsp;consectetur adipisicing elit.</h3>
+        <h3 class="footer__two-box_pnct">T.&emsp;+62-812-7313-4321</h3>
+        <h3 class="footer__two-box_pnct">E&emsp;hello.afrian@gmail.com</h3>
+      </nav>
+      <nav class="footer__two-box">
+        <h2 class="footer__two-box_follow-title">About US</h2>
+        <a href="#" class="footer__two-box_follow animation">About</a>
+        <a href="#" class="footer__two-box_follow animation">What We Do</a>
+        <a href="#" class="footer__two-box_follow animation">Project</a>
+        <a href="#" class="footer__two-box_follow animation">How It Work With Us</a>
+      </nav>
+      <nav class="footer__two-box">
+        <h2 class="footer__two-box_follow-title">Follow US</h2>
+        <a href="#" class="footer__two-box_follow animation">Instagram</a>
+        <a href="#" class="footer__two-box_follow animation">Facebook</a>
+        <a href="#" class="footer__two-box_follow animation">LinkedIn</a>
+        <a href="#" class="footer__two-box_follow animation">Youtube</a>
+      </nav>
+    </div>
+    <p class="footer__develop"> 2023 &copy; Azarkin. All rights reserved.</p>
+  </footer>
+  <section class="popup popup_form animationAdd">
+     <div class="popup__container">
+        <h2 class="popup__name">SEND US MESSAGE</h2>
+        <button class="popup__closeIcon animation" type="button"></button>
+        <form class="popup__form" name="form" novalidate>
+          <h2 class="popup__input-name">Full Name</h2>
+          <input class="popup__input" name="inputAreal" 
+          type="text" placeholder="&emsp;&emsp;Your Name" minlength="2" maxlength="30" required>
+          <h2 class="popup__input-name">Email</h2>
+          <input class="popup__input" name="inputAreal" 
+          type="email" placeholder="&emsp;&emsp;Your Email" minlength="2" maxlength="30" required>
+          <h2 class="popup__input-name">Message</h2>
+          <input class="popup__input popup__input_big" name="inputUrl" 
+          type="text" placeholder="&emsp;&emsp;Your Message" minlength="2" maxlength="500" required> 
+          <button class="popup__sumButton" type="submit">SUBMIT</button>
+      </form>
+    </div> 
+  </section>
+  <section class="popup popup_good">
+    <div class="popup__container">
+      <h2 class="popup__name">Your message successfully sent</h2>
+      <button class="popup__closeIcon animation" type="button"></button>
+    </div>
   </section>
   <template class="template">
     <div class="element">

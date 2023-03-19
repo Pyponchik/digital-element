@@ -1,0 +1,31 @@
+.rectangle__cards {
+  width: 944px;
+  grid-area: rectangle__cards;
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 235px);
+  justify-self: center;
+  border-collapse: collapse;
+  outline: 6px #5A98D0 solid;
+  outline-offset: -4px;
+}
+
+@media screen and (max-width: 1024px){
+  .rectangle__cards {
+    width: 705px;
+  }
+}
+
+@media screen and (max-width: 767px
+){
+  .rectangle__cards {
+    width: 470px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .rectangle__cards {
+    width: 235px;
+  }
+}

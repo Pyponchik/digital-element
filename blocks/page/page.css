@@ -1,4 +1,14 @@
 .page {
   display: flex;
   flex-direction: column;
+  background: linear-gradient(to top, #5A98D0 1300px, #fff 1300px);
+  align-items: center;
+  min-width: 360px;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 1024px){
+  .page {
+    background: linear-gradient(to top, #5A98D0 1800px, #fff 1800px);
+  }
 }

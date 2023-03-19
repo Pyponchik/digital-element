@@ -1,0 +1,18 @@
+.footer__two-box {
+  position: relative;
+}
+
+.footer__two-box:nth-child(2) {
+  margin-left: 100px;
+}
+
+@media screen and (max-width: 1160px){
+  .footer__two-box:nth-child(2) {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 1024px){
+  .footer__two-box:not(:first-child) {
+    margin-top: 50px;
+  }
+}

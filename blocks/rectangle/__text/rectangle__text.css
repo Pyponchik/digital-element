@@ -1,0 +1,19 @@
+.rectangle__text {
+  max-width: 540px;
+  font-family: 'Gilroy';
+  font-style:  normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  opacity: 0.6;
+  grid-area: rectangle__text;
+}
+
+@media screen and (max-width: 620px){
+  .rectangle__text{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}

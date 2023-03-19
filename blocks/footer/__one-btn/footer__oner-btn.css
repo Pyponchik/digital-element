@@ -1,0 +1,23 @@
+.footer__one-btn {
+  width: 220px;
+  height: 56px;
+  border: none;
+  background-color: #5A98D0;
+  border-radius: 10px;
+  align-self: flex-end;
+  margin-top: -18px;
+  font-family: 'Gilroy';
+  font-style:  normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;  
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 787px){
+  .footer__one-btn {
+    margin-top: 35px;
+  }
+}

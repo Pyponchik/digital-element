@@ -1,0 +1,23 @@
+.rectangle__box {
+  margin-top: 96px;
+  /* width: 69%; */
+  display: grid;
+  grid-template-columns: 320px, min-content;
+  grid-template-rows: min-content, min-content;
+  grid-template-areas:
+  "rectangle__title rectangle__text "
+  "rectangle__cards rectangle__cards ";
+  row-gap: 111px;
+}
+
+@media screen and (max-width: 1150px){
+  .rectangle__box {
+    grid-template-columns:  minmax(250px, 1fr);
+    grid-template-rows: min-content, min-content, min-content;
+    grid-template-areas:
+    "rectangle__title "
+    "rectangle__text "
+    "rectangle__cards";
+    row-gap: 20px;
+  }
+}

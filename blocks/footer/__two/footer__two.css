@@ -1,0 +1,13 @@
+.footer__two {
+  width: 58%;
+  max-width: 736px;
+  margin-left: 17%;
+  display: flex;
+  justify-content:space-between;
+}
+
+@media screen and (max-width: 1024px){
+  .footer__two {
+    flex-direction: column;
+  }
+}

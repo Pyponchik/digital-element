@@ -1,7 +1,8 @@
-.hero__navigation {
+.header {
   width: 88%;
   height: 48px;
   margin-top: 40px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 101px;
 }
