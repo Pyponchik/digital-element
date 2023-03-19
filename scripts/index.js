@@ -4,17 +4,17 @@ const elementCards = [
   {
     title: 'Bring Technology To Your Comfrotable Home',
     paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    logo : 'image/element1.svg'
+    logo : new URL('/image/element1.svg', import.meta.url)
   },
   {
     title: 'Make Your business To Be Better Famous In Internet',
     paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    logo : 'image/element2.svg'
+    logo : new URL('/image/element2.svg', import.meta.url)
   },
   {
     title: 'Build Your Digital Product That Suitable For Your Need',
     paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    logo : 'image/element3.svg'
+    logo : new URL('/image/element3.svg', import.meta.url)
 }];
 const elementBox = document.querySelector('.whatwedo');
 const popup = document.querySelector('.popup_form');

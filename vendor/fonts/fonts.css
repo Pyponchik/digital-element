@@ -3,7 +3,7 @@
   font-style:  normal;
   font-weight: 200;
 
-  src: url(/vendor/fonts/GallientRegular.ttf) format("ttf");
+  src: url(GallientRegular.ttf) format("ttf");
 }
 
 @font-face {
@@ -11,5 +11,5 @@
   font-style:  normal;
   font-weight: 200;
 
-  src: url(/vendor/fonts/Gilroy-Light.otf) format("otf");
+  src: url(Gilroy-Light.otf) format("otf");
 }
