@@ -1,0 +1,20 @@
+{
+  "name": "digital-element",
+  "version": "1.0.0",
+  "description": "test project",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel ./index.html",
+    "prebuild-dev": "shx rm -rf dist/*",
+    "build-dev": "parcel build ./index.html --no-optimize --public-url ./",
+    "prebuild": "shx rm -rf dist/*",
+    "build": "parcel build ./index.html --public-url ./",
+    "push-gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose"
+  },
+  "author": "Azarkin",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "shx": "^0.3.4"
+  }
+}
